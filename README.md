@@ -107,7 +107,3 @@ The system is evaluated using the following research-grade metrics:
 - **Simulation**: SUMO
 - **Visualization**: Streamlit, Matplotlib
 - **Backend**: Python
-
-## License
-
-MIT License
