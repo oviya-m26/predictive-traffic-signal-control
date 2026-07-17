@@ -1,0 +1,27 @@
+# Traffic Signal Optimization System Configuration
+
+detection:
+  model_path: "../yolov8n.pt"
+  confidence: 0.15
+
+lane_mapping:
+  lanes:
+    - id: "lane_1"
+      polygon: [[0, 0], [1300, 0], [1300, 700], [0, 700]]
+    - id: "lane_2"
+      polygon: [[0, 0], [1300, 0], [1300, 700], [0, 700]]
+
+optimization:
+  base_time: 20
+  alpha: 0.5 # density factor
+  beta: 0.3  # queue factor
+  gamma: 0.2 # predicted flow factor
+  min_green: 10
+  max_green: 60
+
+database:
+  url: "sqlite:///data/traffic_data.db"
+
+simulation:
+  sumo_cfg: "simulation/intersection_config.sumocfg"
+  step_length: 0.1

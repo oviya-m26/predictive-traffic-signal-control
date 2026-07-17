@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Data and Logs
+data/*.db
+data/raw_videos/*
+data/processed/*
+logs/*.log
+results/*.png
+results/*.txt
+
+# Models
+models/yolo/*.pt
+models/prediction_models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+output.txt

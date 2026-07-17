@@ -1,0 +1,16 @@
+opencv-python
+ultralytics
+torch
+torchvision
+scikit-learn
+lightgbm
+pandas
+numpy
+SQLAlchemy
+fastapi
+uvicorn
+streamlit
+matplotlib
+pyyaml
+sumolib
+traci
