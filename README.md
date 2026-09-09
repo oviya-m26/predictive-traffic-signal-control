@@ -6,6 +6,10 @@ A research-grade, vision-based predictive traffic signal optimization system tha
 
 This project implements an end-to-end intelligent traffic management pipeline. It uses YOLOv8 for vehicle detection, spatial polygon-based lane mapping, and machine learning to forecast traffic flow. The core objective is to minimize vehicle wait times, reduce congestion, and prioritize emergency vehicles. This implementation includes a Traffic Digital Twin that continuously records the intersection state for analysis, replay, and model training.
 
+## Team Contribution
+
+This project was collaboratively developed as an end-to-end predictive traffic signal control system. The work involved integrating computer vision, traffic analysis, machine learning-based prediction, signal optimization, SUMO simulation, and Streamlit dashboard visualization into a unified pipeline.
+
 ## System Architecture
 
 The system follows a modular, research-focused architecture:
